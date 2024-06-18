@@ -1,11 +1,13 @@
 <template>
   <main>
-    <mainComp></mainComp>
+    <headerComp></headerComp>
+    <mainView></mainView>
   </main>
 </template>
 
 <script setup>
-import mainComp from "@/components/main/mainComp.vue";
+import mainView from "@/views/mainView.vue";
+import headerComp from "@/layouts/header.vue";
 import "@/css/reset.css";
 import "@/css/app.scss";
 </script>
