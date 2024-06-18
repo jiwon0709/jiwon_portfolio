@@ -33,5 +33,13 @@ body {
   -webkit-font-smoothing: antialiased; //글꼴의 가장자리를 부드럽게 하여 매끄럽게 보이게 함.
 }
 main section {
-  padding: 2rem;
+  padding: 2rem 0;
+  text-align: center;
+}
+.sectionTitle {
+  display: inline-block;
+  font-size: 3rem;
+  font-weight: bold;
+  border-bottom: 0.5rem solid;
+  padding: 1rem 0;
 }
