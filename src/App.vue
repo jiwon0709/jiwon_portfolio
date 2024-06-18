@@ -1,12 +1,12 @@
 <template>
   <main>
     <headerComp></headerComp>
-    <mainView></mainView>
+    <mainPage></mainPage>
   </main>
 </template>
 
 <script setup>
-import mainView from "@/views/mainView.vue";
+import mainPage from "@/pages/mainPage.vue";
 import headerComp from "@/layouts/header.vue";
 import "@/css/reset.css";
 import "@/css/app.scss";
