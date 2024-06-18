@@ -2,12 +2,14 @@
   <main>
     <headerComp></headerComp>
     <mainPage></mainPage>
+    <aboutMePage></aboutMePage>
   </main>
 </template>
 
 <script setup>
-import mainPage from "@/pages/mainPage.vue";
 import headerComp from "@/layouts/header.vue";
+import mainPage from "@/pages/mainPage.vue";
+import aboutMePage from "@/pages/aboutMePage.vue";
 import "@/css/reset.css";
 import "@/css/app.scss";
 </script>
