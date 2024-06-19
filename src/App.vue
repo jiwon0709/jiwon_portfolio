@@ -3,6 +3,7 @@
     <headerComp></headerComp>
     <mainPage></mainPage>
     <aboutMePage></aboutMePage>
+    <skillsPage></skillsPage>
   </main>
 </template>
 
@@ -10,6 +11,7 @@
 import headerComp from "@/layouts/header.vue";
 import mainPage from "@/pages/mainPage.vue";
 import aboutMePage from "@/pages/aboutMePage.vue";
+import skillsPage from "@/pages/skillsPage.vue";
 import "@/css/reset.css";
 import "@/css/app.scss";
 </script>
