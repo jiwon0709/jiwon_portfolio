@@ -41,7 +41,7 @@
 
 <style lang="scss" scoped>
 .aboutMeWrap {
-  max-width: 75vw;
+  max-width: 70vw;
   margin: 0 auto;
 }
 .profileArea {
