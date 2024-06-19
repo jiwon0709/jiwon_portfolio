@@ -78,6 +78,7 @@
       p {
         display: inline-block;
         padding: 0 1rem;
+        font-weight: 500;
       }
     }
   }
