@@ -4,6 +4,7 @@
     <mainPage></mainPage>
     <aboutMePage></aboutMePage>
     <skillsPage></skillsPage>
+    <careerPage></careerPage>
   </main>
 </template>
 
@@ -12,6 +13,8 @@ import headerComp from "@/layouts/header.vue";
 import mainPage from "@/pages/mainPage.vue";
 import aboutMePage from "@/pages/aboutMePage.vue";
 import skillsPage from "@/pages/skillsPage.vue";
+import careerPage from "@/pages/careerPage.vue";
+
 import "@/css/reset.css";
 import "@/css/app.scss";
 </script>
