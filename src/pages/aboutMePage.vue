@@ -47,7 +47,7 @@
 .profileArea {
   width: 100%;
   display: flex;
-  padding: 2rem 0;
+  padding: 3rem 0 0 0;
   .profileImgArea {
     flex: 3;
     display: inline-block;
