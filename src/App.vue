@@ -5,6 +5,7 @@
     <aboutMePage></aboutMePage>
     <skillsPage></skillsPage>
     <careerPage></careerPage>
+    <capabilityPage></capabilityPage>
   </main>
 </template>
 
@@ -14,6 +15,7 @@ import mainPage from "@/pages/mainPage.vue";
 import aboutMePage from "@/pages/aboutMePage.vue";
 import skillsPage from "@/pages/skillsPage.vue";
 import careerPage from "@/pages/careerPage.vue";
+import capabilityPage from "@/pages/capabilityPage.vue";
 
 import "@/css/reset.css";
 import "@/css/app.scss";
