@@ -28,7 +28,7 @@
     width: 70vw;
     margin: 0 auto;
     .careerContent {
-      padding: 3rem 0;
+      padding: 3rem 0 0 0;
       display: flex;
       .careerImgArea {
         display: inline-block;
