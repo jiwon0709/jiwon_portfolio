@@ -5,7 +5,7 @@
     class="skillsItemArea"
   >
     <h2 class="skillsCategory">{{ category }}</h2>
-    <ul>
+    <ul :class="category">
       <li v-for="(item, index) in items" :key="item">
         <img :src="`/src/assets/images/skills/${category}_${index + 1}.png`" />
         <p>{{ item }}</p>
@@ -28,19 +28,47 @@ const props = defineProps({
   display: block;
   text-align: left;
   font-size: 1.5rem;
-  margin: 2rem 0;
+  margin: 3rem 0;
   background: white;
   border-radius: 10px;
-  padding: 2rem 3rem;
+  padding: 2.5rem 3rem;
   .skillsCategory {
     font-size: 2rem;
-    font-weight: 500;
+    font-weight: 600;
+    padding-bottom: 2rem;
+  }
+  .FrontEnd {
+    display: flex;
+    justify-content: space-between;
+    li {
+      width: 14%;
+      img {
+        width: 90%;
+        aspect-ratio: 1;
+      }
+    }
+  }
+  .BackEnd,
+  .Cooperation {
+    display: flex;
+    justify-content: space-between;
+    li {
+      width: 22%;
+    }
   }
   li {
     display: inline-block;
+    text-align: center;
     img {
-      border: 2px solid #e0e0e0;
+      width: 90%;
+      aspect-ratio: 1;
+      border: 3px solid #e0e0e0;
       border-radius: 20px;
+      padding: 5px;
+    }
+    p {
+      padding: 0.5rem 0;
+      font-weight: 500;
     }
   }
 }
