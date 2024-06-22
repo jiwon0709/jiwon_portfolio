@@ -4,7 +4,7 @@
       <span class="sectionTitle">Career</span>
       <div class="careerContent">
         <div class="careerImgArea">
-          <img src="/src/assets/images/company_logo.png" />
+          <img src="/src/assets/images/company_logo_1.png" />
         </div>
         <div class="careerTextArea">
           <p id="companyNm">
