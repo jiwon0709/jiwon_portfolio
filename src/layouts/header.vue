@@ -20,6 +20,8 @@ header {
   background: white;
   font-size: 1.5rem;
   text-align: center;
+  opacity: 0.9;
+  box-shadow: 0 0 0.5rem hsl(0deg 0% 75% / 80%);
 }
 ul li {
   display: inline-block;
