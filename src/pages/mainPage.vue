@@ -1,11 +1,11 @@
 <template>
   <section class="mainWrap">
-    <div class="mainImg">
-      <img src="@/assets/images/main_code_cut.PNG" />
-    </div>
     <div class="mainExp">
-      <p>안녕하세요</p>
-      <p>프론트엔드 개발자 오지원 입니다</p>
+      <div class="mainTextWrap">
+        <p>Welcome to jiwon's portfolio</p>
+        <p>I'm a front-end developer.</p>
+        <span></span>
+      </div>
     </div>
   </section>
 </template>
@@ -14,19 +14,26 @@
 
 <style lang="scss" scoped>
 .mainWrap {
-  background: #011627;
   text-align: center;
+  height: 100vh;
+  padding: 0;
 }
-.mainExp p {
-  margin: 0;
-  color: white;
-  font-weight: bold;
-  line-height: 4rem;
-  &:first-child {
-    font-size: 3rem;
-  }
-  &:nth-child(2) {
-    font-size: 3rem;
+.mainExp {
+  background-image: url("../assets/images/main_background.gif");
+  height: 100%;
+  background-size: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .mainTextWrap {
+    p {
+      margin: 0;
+      color: white;
+      font-weight: bold;
+      line-height: 4rem;
+      font-size: 3rem;
+      opacity: 0.9;
+    }
   }
 }
 </style>
