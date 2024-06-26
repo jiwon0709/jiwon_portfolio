@@ -31,6 +31,12 @@
             <font-awesome-icon icon="fa-solid fa-envelope" />
             <p>pooojw@naver.com</p>
           </span>
+          <span>
+            <a href="https://velog.io/@jiwony7" target="_blank">
+              <font-awesome-icon icon="fa-solid fa-blog" />
+              <p>velog.io/@jiwony7</p>
+            </a>
+          </span>
         </div>
       </div>
     </div>
@@ -47,7 +53,7 @@
 .profileArea {
   width: 100%;
   display: flex;
-  padding: 3rem 0 0 0;
+  padding: 3rem 0;
   .profileImgArea {
     flex: 3;
     display: inline-block;
@@ -79,6 +85,9 @@
         display: inline-block;
         padding: 0 1rem;
         font-weight: 500;
+      }
+      a {
+        color: #000000;
       }
     }
   }
