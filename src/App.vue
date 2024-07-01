@@ -7,6 +7,7 @@
     <careerPage></careerPage>
     <capabilityPage></capabilityPage>
   </main>
+  <scrollTop></scrollTop>
   <footerComp></footerComp>
 </template>
 
@@ -18,6 +19,7 @@ import aboutMePage from "@/pages/aboutMePage.vue";
 import skillsPage from "@/pages/skillsPage.vue";
 import careerPage from "@/pages/careerPage.vue";
 import capabilityPage from "@/pages/capabilityPage.vue";
+import scrollTop from "@/components/common/scrollTop.vue";
 
 import "@/css/reset.css";
 import "@/css/app.scss";
