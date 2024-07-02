@@ -87,6 +87,7 @@
     .careerContent {
       padding: 3rem 0;
       display: flex;
+      align-items: center;
       .careerImgArea {
         display: inline-block;
         width: 40%;
@@ -124,7 +125,7 @@
         }
         p {
           color: #bbbbbb;
-          font-size: 1rem;
+          font-size: 1.1rem;
           position: relative;
           padding-left: 1.2rem;
           &:before {

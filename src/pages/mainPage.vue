@@ -6,8 +6,12 @@
         <p>I'm a front-end developer.</p>
         <span></span>
       </div>
-      <div class="mainArrowArea" @click="moveScroll">
-        <img src="../assets/images/white_arrow.png" />
+      <div class="mainBtnWrap" @click="moveScroll">
+        continue
+        <font-awesome-icon
+          icon="fa-solid fa-arrow-right"
+          style="padding-left: 5px"
+        />
       </div>
     </div>
   </section>
@@ -47,16 +51,15 @@ const moveScroll = () => {
       opacity: 0.9;
     }
   }
-  .mainArrowArea {
-    width: 3rem;
-    height: 3rem;
-    position: relative;
-    top: 30%;
+  .mainBtnWrap {
+    color: white;
+    border: 2px solid;
+    border-radius: 25px;
+    padding: 0.8rem 2rem;
     cursor: pointer;
-    img {
-      width: 100%;
-      transform: rotate(90deg);
-    }
+    margin: 2rem;
+    font-size: 1.3rem;
+    font-weight: 600;
   }
 }
 </style>
