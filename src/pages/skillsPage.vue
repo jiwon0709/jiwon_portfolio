@@ -21,7 +21,7 @@ const skillsList = {
   background: #e0e0e0;
 }
 .skillsArea {
-  width: 70vw;
+  width: 65vw;
   margin: 0 auto;
 }
 </style>

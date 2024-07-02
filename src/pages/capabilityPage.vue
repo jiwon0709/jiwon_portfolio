@@ -105,7 +105,7 @@ const capaList = [
   background: #f5f5f5;
 }
 .capaArea {
-  width: 70vw;
+  width: 65vw;
   margin: 0 auto;
 }
 </style>
