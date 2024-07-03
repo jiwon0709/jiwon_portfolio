@@ -110,4 +110,17 @@ const props = defineProps({
     }
   }
 }
+
+@media (max-width: 1200px) {
+  .capaItemArea {
+    .capaItemTitle {
+      font-size: 1.5rem;
+    }
+    li {
+      .capaItemList {
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
 </style>

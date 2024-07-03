@@ -24,4 +24,10 @@ const skillsList = {
   width: 65vw;
   margin: 0 auto;
 }
+
+@media (max-width: 1200px) {
+  .skillsArea {
+    width: 85vw;
+  }
+}
 </style>

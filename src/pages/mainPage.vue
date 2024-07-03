@@ -7,7 +7,7 @@
         <span></span>
       </div>
       <div class="mainBtnWrap" @click="moveScroll">
-        continue
+        Continue
         <font-awesome-icon
           icon="fa-solid fa-arrow-right"
           style="padding-left: 5px"
@@ -53,13 +53,29 @@ const moveScroll = () => {
   }
   .mainBtnWrap {
     color: white;
-    border: 2px solid;
+    border: 3px solid;
     border-radius: 25px;
     padding: 0.8rem 2rem;
     cursor: pointer;
     margin: 2rem;
     font-size: 1.3rem;
     font-weight: 600;
+    &:hover {
+      background: #7e7e7e;
+      border: 3px solid #7e7e7e;
+    }
+  }
+}
+@media (max-width: 750px) {
+  .mainExp {
+    .mainTextWrap {
+      p {
+        font-size: 2rem;
+      }
+    }
+    .mainBtnWrap {
+      font-size: 1rem;
+    }
   }
 }
 </style>

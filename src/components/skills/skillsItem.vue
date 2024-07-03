@@ -40,6 +40,7 @@ const props = defineProps({
   .FrontEnd {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     li {
       width: 14%;
       img {
@@ -52,6 +53,7 @@ const props = defineProps({
   .Cooperation {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     li {
       width: 22%;
     }
@@ -69,6 +71,31 @@ const props = defineProps({
     p {
       padding: 0.5rem 0;
       font-weight: 500;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .skillsItemArea {
+    font-size: 1rem;
+    .skillsCategory {
+      font-size: 1.5rem;
+    }
+    .FrontEnd {
+      li {
+        flex: 0 1 30%;
+      }
+    }
+  }
+}
+@media (max-width: 650px) {
+  .skillsItemArea {
+    .FrontEnd,
+    .BackEnd,
+    .Cooperation {
+      li {
+        flex: 0 1 40%;
+      }
     }
   }
 }

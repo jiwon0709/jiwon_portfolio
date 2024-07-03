@@ -66,7 +66,6 @@
     padding-left: 3rem;
     text-align: left;
     word-break: break-word;
-    white-space: nowrap;
     font-size: 1.1rem;
     line-height: 1.7rem;
     display: flex;
@@ -94,5 +93,20 @@
 }
 .fa-square-check {
   color: rgb(42, 96, 183);
+}
+
+@media (max-width: 1200px) {
+  .aboutMeWrap {
+    width: 85vw;
+  }
+  .profileArea {
+    display: block;
+    .profileImgArea {
+      width: 50%;
+    }
+    .profileTextArea {
+      padding-left: 0;
+    }
+  }
 }
 </style>

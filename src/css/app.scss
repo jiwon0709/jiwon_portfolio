@@ -43,3 +43,15 @@ main section {
   border-bottom: 0.5rem solid;
   padding: 1rem 0;
 }
+
+@media (max-width: 1200px) {
+  .sectionTitle {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .sectionTitle {
+    font-size: 1.7rem;
+  }
+}

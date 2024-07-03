@@ -30,7 +30,9 @@
         </div>
         <div>
           <span>▎LH 스마트홈 플랫폼 (2023.01 ~ 2023.06)</span>
-          <p>개요 : LH 주택의 IOT 스마트홈 시스템을 관리할 수 있는 웹 플랫폼</p>
+          <p>
+            개요 : LH 공동주택의 IOT 스마트홈 시스템을 관리할 수 있는 웹 플랫폼
+          </p>
           <p>사용기술 : Vue.js</p>
           <p>담당업무 : 프론트엔드 개발</p>
         </div>
@@ -108,8 +110,9 @@
           font-size: 1.8rem;
         }
         #companyPeriod {
-          padding-left: 20px;
+          display: inline-block;
           font-size: 1rem;
+          padding-left: 2rem;
         }
       }
     }
@@ -125,7 +128,7 @@
         }
         p {
           color: #bbbbbb;
-          font-size: 1.1rem;
+          font-size: 1rem;
           position: relative;
           padding-left: 1.2rem;
           &:before {
@@ -138,6 +141,25 @@
             height: 5px;
             background: #bbbbbb;
             border-radius: 50%;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1200px) {
+  .careerWrap {
+    .careerArea {
+      width: 85vw;
+      .careerContent {
+        .careerTextArea {
+          font-size: 0.9rem;
+          #companyNm {
+            font-size: 1.3rem;
+            #companyPeriod {
+              display: block;
+              padding-left: 0;
+            }
           }
         }
       }

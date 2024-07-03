@@ -45,4 +45,12 @@ ul li {
   font-weight: 500;
   cursor: pointer;
 }
+@media (max-width: 750px) {
+  header {
+    font-size: 1rem;
+    ul li {
+      padding: 1rem;
+    }
+  }
+}
 </style>
