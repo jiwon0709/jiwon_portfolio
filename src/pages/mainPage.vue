@@ -4,7 +4,6 @@
       <div class="mainTextWrap">
         <p>Welcome to jiwon's portfolio.</p>
         <p>I'm a front-end developer.</p>
-        <span></span>
       </div>
       <div class="mainBtnWrap" @click="moveScroll">
         Continue
