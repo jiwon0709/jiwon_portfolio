@@ -9,8 +9,8 @@
         <div>
           안녕하세요. 프론트엔드 개발자 오지원입니다.<br /><br />
           <font-awesome-icon icon="fa-regular fa-square-check" />&nbsp;
-          프론트엔드 개발자는 시스템을 이용하는 고객에게 첫인상을 결정하는
-          매력적인 직업이라고 생각합니다.<br />
+          프론트엔드 개발자는 고객에게 시스템의 첫인상을 결정하는 매력적인
+          직업이라고 생각합니다.<br />
           <font-awesome-icon icon="fa-regular fa-square-check" />&nbsp; 시스템
           이용이 고객에게 좋은 기억으로 남을 수 있도록 항상 고민하며 개발합니다.
         </div>
