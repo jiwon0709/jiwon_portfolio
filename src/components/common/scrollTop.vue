@@ -1,6 +1,6 @@
 <template>
   <div v-if="isVisible" class="scrollTopBtn" @click="scrollToTop()">
-    <img src="../../assets/images/top_icon.png" />
+    <img src="../../assets/images/arrow_yellow.png" />
   </div>
 </template>
 
@@ -32,10 +32,21 @@ onBeforeUnmount(() => {
   height: 3rem;
   position: fixed;
   bottom: 2rem;
-  right: 2rem;
+  right: 1.5rem;
   cursor: pointer;
   img {
     width: 100%;
+    transform: rotate(-90deg);
+  }
+}
+
+@media (max-width: 750px) {
+  .scrollTopBtn {
+    width: 2rem;
+    height: 2rem;
+    position: fixed;
+    bottom: 1rem;
+    right: 0.5rem;
   }
 }
 </style>
