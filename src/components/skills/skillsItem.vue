@@ -7,7 +7,7 @@
     <h2 class="skillsCategory">{{ category }}</h2>
     <ul :class="category">
       <li v-for="(item, index) in items" :key="item">
-        <img :src="`/src/assets/images/skills/${category}_${index + 1}.png`" />
+        <img :src="getImgSrc(category, index)" />
         <p>{{ item }}</p>
       </li>
     </ul>
@@ -21,6 +21,13 @@ const props = defineProps({
     required: true,
   },
 });
+
+const getImgSrc = (category, index) => {
+  return new URL(
+    `/src/assets/images/skills/${category}_${index + 1}.png`,
+    import.meta.url
+  ).href;
+};
 </script>
 
 <style lang="scss" scoped>
