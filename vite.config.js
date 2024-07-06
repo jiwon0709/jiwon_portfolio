@@ -7,7 +7,7 @@ dns.setDefaultResultOrder("verbatim"); // 로컬 주소 127.0.0.1 -> localhost�
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/jiwon_portfolio",
+  base: process.env.NODE_ENV === "production" ? "/jiwon_portfolio/" : "/",
   plugins: [vue()],
   server: {
     host: "localhost",
@@ -16,6 +16,9 @@ export default defineConfig({
     alias: {
       "@": fileURLToPath(new URL("./src", import.meta.url)),
     },
+  },
+  build: {
+    outDir: "docs",
   },
   assetsInclude: ["**/*.PNG", "**/*.png"],
 });
