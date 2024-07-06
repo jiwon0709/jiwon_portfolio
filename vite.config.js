@@ -7,6 +7,7 @@ dns.setDefaultResultOrder("verbatim"); // 로컬 주소 127.0.0.1 -> localhost�
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/jiwon_portfolio",
   plugins: [vue()],
   server: {
     host: "localhost",
